@@ -1,4 +1,4 @@
-#Code Ownership & Usage Terms
+Code Ownership & Usage Terms
 This project was created and maintained by:
 
 Konstantinos Pavlis (@PavlisKostas)
