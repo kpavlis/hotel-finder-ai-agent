@@ -1,6 +1,4 @@
-# 🤖
-
-## 🛍️Android Shopping Application.
+## 🤖 AI agent hotel-best-price.
 An AI agent that find the best hotel prices.
 
 > ℹ️ This project is not open source and does not grant any usage rights.
