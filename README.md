@@ -42,9 +42,9 @@ Before running the application, make sure your environment is properly configure
 
 ## 💬 Conversation Demo
 
-<img width="854" height="465" alt="Agent_Conv_1" src="resources/screenshots/conversation_1.png" />
-<img width="854" height="465" alt="Agent_Conv_2" src="resources/screenshots/conversation_2.png" />
-<img width="854" height="465" alt="Agent_Conv_3" src="resources/screenshots/conversation_3.png" />
+<img width="1025" height="558" alt="Agent_Conv_1" src="resources/screenshots/conversation_1.png" />
+<img width="1025" height="558" alt="Agent_Conv_2" src="resources/screenshots/conversation_2.png" />
+<img width="1025" height="558" alt="Agent_Conv_3" src="resources/screenshots/conversation_3.png" />
 
 # 🔒 Code Ownership & Usage Terms
 
