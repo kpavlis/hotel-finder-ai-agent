@@ -1,12 +1,12 @@
 # 🤖 Hotel Finder AI Agent
 
-**An AI agent that find the best hotel prices.**
+**An intelligent hotel‑booking agent that interacts with users through a chat interface, retrieves hotel offers, and returns the best available option in the user’s preferred currency.**
 
 > ℹ️ This project is not open source and does not grant any usage rights.
 > For usage terms and legal information, see [Code Ownership & Usage Terms](#-code-ownership--usage-terms).
 
 ## 📕 Overview
-The project is an example of an AI agent, using Google's Gemini LLM, that is able to find the best price for a hotel at a destination of the user's choosing, based on his needs.
+The system is an AI‑driven hotel‑search agent that guides users through a conversational interface. Based on the city, travel dates, number of guests, and desired currency, it retrieves hotel data from external APIs, selects the best available offer, and optionally converts the price. The agent is built using LangGraph for tool orchestration, Gemini 2.5 Flash for reasoning, and Gradio for user interaction.
 
 ## ⚡Features
  - 🤖 AI-Powered natural language query understanding
@@ -17,13 +17,28 @@ The project is an example of an AI agent, using Google's Gemini LLM, that is abl
 
 
 ## 🧠 Technologies Used
- - Python.
+ - **LangGraph** – Orchestrates the agent workflow and tool‑calling logic
+ - **Gemini‑2.5‑Flash‑Preview‑05‑20** – LLM responsible for interpreting user input and deciding which tools to call
+ - **Amadeus API** – Provides city data, IATA codes, hotel listings, and hotel offers
+ - **Exchangerate‑API** – Converts hotel prices into the user’s preferred currency
+ - **Gradio** – Enables the chat‑based user interface
 
 ## 🎯 Purpose
-This application was created to provide an easy way to users to find the best deals for a destination of their choosing. **This application is developed solely for academic and research purposes**.
+The purpose of this project is to demonstrate how an LLM‑powered agent can combine natural‑language interaction with structured API calls to solve a real‑world task. The agent automates hotel discovery, offer evaluation, and currency conversion, providing users with a streamlined and reliable way to obtain the best available accommodation price. **This application is developed solely for academic and research purposes**.
 
 ## 🧰 Prerequisites
-Unless you chose to use Google Colab, you may need to download Python before running the .py file.
+
+Before running the application, make sure your environment is properly configured.
+
+ - Python 3.9+ is recommended
+ - API Keys - You must provide valid API keys/credentials for:
+   - Gemini API (LLM access)
+   - Amadeus API (city & hotel data)
+   - Exchangerate API (currency conversion)
+ - Required Python Libraries  
+    Installable via `pip` (e.g., LangGraph, Gradio, requests, etc.)
+ - Internet Connection  
+    Needed for all external API calls and LLM interactions
 
 # 🔒 Code Ownership & Usage Terms
 
